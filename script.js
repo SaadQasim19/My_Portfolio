@@ -132,10 +132,10 @@ function downloadCV() {
     const cvContent = `
 CURRICULUM VITAE
 
-Name: MERN Stack Developer
-Email: developer@email.com
-Phone: +92 300 1234567
-Location: Attock City, Punjab, Pakistan
+Name: Muhammad Saad Qasim
+Email: m.saadqasim7665@gmail.com
+Phone: +92 303 5664437
+Location: Kamra Cantt, Attock City, Pakistan
 
 PROFESSIONAL SUMMARY
 Passionate MERN Stack Developer with nearly 1 year of experience in building modern web applications. 
@@ -173,7 +173,7 @@ ACHIEVEMENTS
 • Strong problem-solving and analytical skills
 
 LANGUAGES
-• English (Fluent)
+• English (Conversational)
 • Urdu (Native)
 
 INTERESTS
@@ -185,7 +185,7 @@ Web Development, Open Source Contribution, Learning New Technologies, UI/UX Desi
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'MERN_Stack_Developer_CV.txt';
+    a.download = 'Muhammad_Saad_Qasim_CV.txt';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
